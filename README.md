@@ -8,6 +8,7 @@ This GitHub repository serves as a public-facing collection of documentation per
 * monitoring,
 * Home Assistant,
 * Large Language Models (LLMs),
+* troubleshooting,
 * 3D printing (FDM).
 
 ## Desktop
