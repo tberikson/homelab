@@ -1,7 +1,7 @@
 # Homelab
 
 ## Description
-This GitHub repository serves as a public-facing collection of documentation pertaining to my personal technical projects. Topics (will) include:
+This GitHub repository serves as a public-facing collection of documentation pertaining to personal technical projects. Topics (will) include:
 * Linux,
 * automation,
 * networking,
@@ -12,10 +12,10 @@ This GitHub repository serves as a public-facing collection of documentation per
 * 3D printing (FDM).
 
 ## Desktop
-My main personal computer is running Arch Linux with the KDE Plasma desktop and Wayland compositor; my laptop is running pretty much the same configuration, with the addition of some power management utilities (MSI-specific EC for battery charge limiting), and a different firewall.
+Primary workstation for daily computing running Arch Linux with KDE Plasma desktop and Wayland compositor; mobile workstation (laptop) doubling as a media center running a similar configuration, with additional power management utilities (MSI-specific EC for battery charge limiting), and a different firewall front-end (firewalld instead of ufw).
 
 ## Media Server
-Our media server is running Debian Linux. It runs a variety of services, such as OpenWebUI, Jellyfin, AI text-to-speech, and whatever else needs GPU compute we don't want running on our own machines.
+Media server running Debian Linux. It provides a variety of services for the household, such as OpenWebUI, Jellyfin, AI text-to-speech, and other GPU workloads as needed.
 
 ## Home Assistant
-I have a Raspberry Pi SBC running Home Assistant. It primarily serves as a remote way to send commands to my machine. For example, I can wake-on-lan, reboot, or shutdown my PC by just tapping a widget on my phone. It controls my bedroom light and has a Waze automation that provides me with a commute time estimate at a set time every day for my workplace. I plan to add more functionality later.
+Raspberry Pi SBC running Home Assistant. It primarily serves as a remote method to control the state of the primary workstation. For example, send magic packets to Wake-on-Lan, reboot/shutdown over SSH, etc. using mobile phone widgets. Functionality has been added to control certain network-enabled lights. It also had Waze integrated to estimate commute times to the workplace, sent via push notification at predefined times. More functionality is planned to be added later.
