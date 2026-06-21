@@ -12,7 +12,7 @@ This GitHub repository serves as a public-facing collection of documentation per
 * 3D printing (FDM).
 
 ## Desktop
-Primary workstation for daily computing running Arch Linux with KDE Plasma desktop and Wayland compositor; mobile workstation (laptop) doubling as a media center running a similar configuration, with additional power management utilities (MSI-specific EC for battery charge limiting), and a different firewall front-end (firewalld instead of ufw).
+Primary workstation for daily computing running Arch Linux with Hyprland compositor; mobile workstation (laptop) doubling as a media center running a similar configuration, with additional power management utilities (MSI-specific EC for battery charge limiting), and a different firewall front-end (firewalld instead of ufw).
 
 ## Media Server
 Media server running Debian Linux. It provides a variety of services for the household, such as OpenWebUI, Jellyfin, AI text-to-speech, and other GPU workloads as needed.
